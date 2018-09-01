@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - VMWare",
+	"description": "This is a repository of vmware APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/vmware.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-31",
+	"url": "http://vmware.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "VMWare",
+			"x-api-slug": "vmware",
+			"description": "At VMware, we believe that software has the power to unlock new opportunities for people and our planet. We look beyond the barriers of compromise to engineer new ways to make technologies work together seamlessly. Our software forms a digital foundation that powers the apps, services and experiences that are transforming the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png",
+			"humanURL": "http://vmware.com",
+			"baseURL": "https://example.com//suite-api/api",
+			"tags": "VMWare",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/vmware/master/_listings/vmware/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "VMWare",
+	"include": [
+		{
+			"name": "VMWare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/vmware/master/_listings/vmware/apis.yaml"
+		}
+	]
+}
